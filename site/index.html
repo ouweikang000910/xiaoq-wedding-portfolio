@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="小区 — 婚庆道具设计师">
+  <meta property="og:description" content="让浪漫，有形可见。小区的个人作品集与婚庆道具设计概念。">
+  <meta property="og:type" content="website">
+  <meta name="description" content="小区的个人作品集。婚庆道具设计，让关于浪漫的想象有形可见。">
+  <title>小区 — 婚庆道具设计师</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230a0a0a'/%3E%3Cpath d='M31 9v46M9 32h46M16 16l32 32M16 48l32-32' stroke='%23da1627' stroke-width='8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">跳转到作品</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="回到首页"><span class="mark">✳</span><span>XIAO QU<br><strong>WEDDING PROP DESIGNER</strong></span></a>
+      <nav class="desktop-nav" aria-label="主导航"><a href="#work">作品 <span>01</span></a><a href="#about">关于 <span>02</span></a><a href="#contact">联系 <span>03</span></a></nav>
+      <a class="header-contact" href="#contact"><span class="status-dot"></span> LET’S CONNECT <span class="red">↗</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="打开菜单"><span></span><span></span></button>
+      <nav id="mobile-nav" class="mobile-nav" aria-label="移动导航" hidden><a href="#work">作品 / WORK</a><a href="#about">关于 / ABOUT</a><a href="#contact">联系 / CONTACT</a></nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-name">
+        <div class="hero-word" aria-hidden="true">PORTFOLIO</div>
+        <div class="hero-art"><img src="assets/hero.webp" alt="黑色金属与深红色交织的抽象雕塑" fetchpriority="high"><span class="art-note">FORM, MATERIAL & A LITTLE ROMANCE</span></div>
+        <div class="hero-intro">
+          <span class="handwriting">Hello, I’m</span>
+          <h1 id="hero-name"><span class="chinese-name">小区<span class="name-star">✳</span></span><span class="roman-name">XIAO QU</span></h1>
+          
+          <p class="hero-role">婚庆道具设计师<br><span class="role-en">WEDDING PROP DESIGNER</span></p>
+          <p class="hero-description">用结构、材质与细节，<br>把关于浪漫的想象，<br>变成婚礼现场的独特风景。</p>
+          <a class="circle-link" href="#work"><span class="circle-arrow">↘</span> 探索我的作品</a>
+        </div>
+        <div class="hero-aside"><div class="hero-manifesto"><span class="orbit-star">✳</span><p>让浪漫，<br>有形可见。</p></div><div class="hero-principles"><div><span class="principle-number">01</span><p>FORM & SPACE<br><strong>造型与空间</strong></p></div><div><span class="principle-number">02</span><p>MATERIAL & LIGHT<br><strong>材质与光影</strong></p></div><div><span class="principle-number">03</span><p>LOVE & DETAIL<br><strong>浪漫与细节</strong></p></div></div></div>
+        <div class="hero-bottom"><span>ROMANTIC IDEAS. TANGIBLE FORMS.</span><a href="#work">SCROLL TO EXPLORE <span>↓</span></a></div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-heading">
+        <div class="section-heading"><div><span class="eyebrow">01 / SELECTED WORK</span><h2 id="work-heading">精选作品<span class="small-red">.</span></h2></div><div class="work-filters" aria-label="作品分类"><button class="active" type="button" data-filter="all" aria-pressed="true">全部</button><button type="button" data-filter="installation" aria-pressed="false">婚礼装置</button><button type="button" data-filter="props" aria-pressed="false">道具设计</button></div></div>
+        <p class="demo-caption"><span></span> 概念视觉示例 · 可替换为真实婚礼作品</p>
+        <div class="project-grid">
+          <button type="button" class="project-card" data-category="installation" data-project="velo"><div class="project-image wedding-project"><img src="assets/rouge.webp" alt="红色丝绸与镜面基座构成的仪式装置概念" loading="lazy"><span class="project-concept">CONCEPT / 01</span><div class="wedding-project-label"><strong>ROUGE</strong><span>红色誓言</span></div><span class="project-hover">探索项目 <span>↗</span></span></div><div class="project-meta"><span class="project-number">01</span><div><h3>ROUGE — 红色誓言</h3><p>CEREMONY INSTALLATION / CONCEPT</p></div><span class="project-arrow">↗</span></div></button>
+          <button type="button" class="project-card" data-category="installation" data-project="forme"><div class="project-image wedding-project"><img src="assets/arc.webp" alt="白色拱门与花境构成的婚礼装置概念" loading="lazy"><span class="project-concept">CONCEPT / 02</span><div class="wedding-project-label"><strong>ARC</strong><span>弧光花境</span></div><span class="project-hover">探索项目 <span>↗</span></span></div><div class="project-meta"><span class="project-number">02</span><div><h3>ARC — 弧光花境</h3><p>FLORAL ARCH / CONCEPT</p></div><span class="project-arrow">↗</span></div></button>
+          <button type="button" class="project-card" data-category="props" data-project="studio"><div class="project-image wedding-project"><img src="assets/fold.webp" alt="折纸造型与香槟金结构构成的婚礼背景概念" loading="lazy"><span class="project-concept">CONCEPT / 03</span><div class="wedding-project-label"><strong>FOLD</strong><span>折叠浪漫</span></div><span class="project-hover">探索项目 <span>↗</span></span></div><div class="project-meta"><span class="project-number">03</span><div><h3>FOLD — 折叠浪漫</h3><p>SCULPTURAL PROPS / CONCEPT</p></div><span class="project-arrow">↗</span></div></button>
+        </div>
+        <a class="text-link source-link" href="https://my.feishu.cn/wiki/C8FIwdDlDidPEMkGEfYcCn82nhc?from=from_copylink" target="_blank" rel="noopener noreferrer">查看个人资料文档 <span>↗</span></a>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-heading">
+        <div class="about-copy"><span class="eyebrow">02 / A LITTLE ABOUT ME</span><h2 id="about-heading">让浪漫，<br><span>有形可见</span>。</h2><p>我是小区，一名婚庆道具设计师。以造型、材质和细节为语言，把关于浪漫的想象，转化为婚礼现场的装置与道具。</p><p class="muted small">DESIGNING OBJECTS. SHAPING ROMANTIC MOMENTS.</p><div class="skill-area"><h3>设计语言 <span>/ DESIGN LANGUAGE</span></h3><div class="skill-tags"><span>婚庆道具</span><span>仪式背景</span><span>空间装置</span><span>材质探索</span><span>结构造型</span><span>场景呈现</span></div></div></div>
+        <div class="process"><span class="eyebrow">THE CREATIVE PROCESS</span><h2>从想法，到实现</h2><ol><li><span class="step-number">01</span><span class="step-icon">⌕</span><div><h3>沟通 <small>DISCOVER</small></h3><p>从故事出发，寻找浪漫的线索。</p></div></li><li><span class="step-number">02</span><span class="step-icon">◇</span><div><h3>构想 <small>CONCEPT</small></h3><p>结合场地，让灵感有清晰的方向。</p></div></li><li><span class="step-number">03</span><span class="step-icon">↗</span><div><h3>设计 <small>DESIGN</small></h3><p>用形态与材质，让浪漫具体起来。</p></div></li><li><span class="step-number">04</span><span class="step-icon">⟳</span><div><h3>打磨 <small>REFINE</small></h3><p>调整比例与细节，让现场恰到好处。</p></div></li></ol></div>
+        <aside class="quote-panel"><span class="quote-symbol">“</span><blockquote>让每个重要时刻，<br>都有自己的形状。</blockquote><p>MAKE ROMANCE.<br>MAKE IT TANGIBLE.</p><span class="quote-sign">With love, Xiao Qu.</span><span class="quote-star">✳</span></aside>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-heading"><div class="contact-copy"><span class="eyebrow">03 / THE NEXT GOOD IDEA</span><h2 id="contact-heading">LET’S WORK<br>TOGETHER<span>✳</span></h2><p>从一个关于婚礼的想象开始，<br>一起创造值得记住的现场。</p><a class="circle-link contact-cta" href="https://my.feishu.cn/wiki/C8FIwdDlDidPEMkGEfYcCn82nhc?from=from_copylink" target="_blank" rel="noopener noreferrer"><span class="circle-arrow">↗</span><span>查看我的个人资料</span></a></div><div class="contact-links"><a class="contact-row document-link" href="https://my.feishu.cn/wiki/C8FIwdDlDidPEMkGEfYcCn82nhc?from=from_copylink" target="_blank" rel="noopener noreferrer"><span class="contact-icon">↗</span><span><small>MY PROFILE</small>飞书 · 个人资料文档</span><span class="row-arrow">↗</span></a><button class="contact-row" id="copy-profile" type="button"><span class="contact-icon">⧉</span><span><small>KEEP IN TOUCH</small>复制个人资料链接</span><span class="row-arrow">↗</span></button><div class="contact-row email-row"><span class="contact-icon">@</span><span><small>EMAIL</small><span class="email-text">联系邮箱待补充</span></span></div><div class="contact-row"><span class="contact-icon">◎</span><span><small>BASED IN</small><span id="location-text">所在地待补充</span></span></div></div><div class="contact-graphic" aria-hidden="true"><div class="graphic-orbit"></div><span>GOOD<br>THINGS<br>START<br>HERE.</span><div class="graphic-star">✳</div><small>LET’S MAKE SOMETHING MATTER.</small></div></section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year">2026</span> <span id="footer-name">小区 · XIAO QU</span></span><div><button id="edit-profile" type="button">编辑资料 <span>↗</span></button><a href="#home">BACK TO TOP ↑</a></div><span>MADE WITH INTENTION <span class="red">✳</span></span></footer>
+  </div>
+
+  <dialog id="project-dialog" class="project-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" aria-label="关闭项目">×</button><span class="eyebrow" id="dialog-category"></span><h2 id="dialog-title"></h2><p class="dialog-demo-label">AI 概念示例 · 非实际落地案例</p><div class="dialog-art"></div><div class="dialog-details"><div><h3>创作概念</h3><p id="dialog-description"></p></div><div><h3>设计重点</h3><ul id="dialog-points"></ul></div></div><button class="dialog-next" type="button">下一个项目 <span>→</span></button></dialog>
+  <dialog id="profile-dialog" class="profile-dialog" aria-labelledby="profile-heading"><button type="button" class="dialog-close" aria-label="关闭编辑">×</button><span class="eyebrow">MAKE IT YOURS</span><h2 id="profile-heading">写下你的故事<span class="red">.</span></h2><p>资料会保存在当前浏览器中，供你预览。</p><form id="profile-form"><label>姓名<input name="name" maxlength="12" autocomplete="name" placeholder="你希望展示的名字" required></label><label>职业 / 创作方向<input name="role" maxlength="70" placeholder="例如：婚庆道具设计师"></label><label>一句话介绍<textarea name="bio" rows="3" maxlength="200" placeholder="介绍你自己，或者写下你的创作理念"></textarea></label><div class="form-grid"><label>联系邮箱<input name="email" type="email" autocomplete="email" placeholder="hello@example.com"></label><label>所在地<input name="location" maxlength="40" placeholder="城市 / 国家"></label></div><button type="submit" class="save-button">保存并预览 <span>↗</span></button><button type="button" class="reset-button">恢复初始资料</button></form></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
